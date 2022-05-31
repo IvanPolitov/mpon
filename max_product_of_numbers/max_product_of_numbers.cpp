@@ -56,6 +56,8 @@ int main()
 	//int N;
 	//cout << "Введите размер массива (он должен быть больше 2) - ";
 	//cin >> N;
+	//cout << "Введите массив: ";
+
 	//int* list_of_ints = new int[N];
 	//for (int i = 0; i < N; i++)
 	//{
@@ -68,6 +70,7 @@ int main()
 	for (int i = 0; i < N; i++)
 	{
 		list_of_ints[i] = -30 + rand() % 61;	//случайное чилсо в диапозоне от -30 до 30
+		cout << list_of_ints[i] << " ";
 	}
 
 	cout << "\n" << mpon(list_of_ints, N) << "\n";
